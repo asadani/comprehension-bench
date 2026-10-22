@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "request-explanation-pilot",
+  "title": "Document preview explanation study",
+  "fixture_note": "All participant IDs, answers, timestamps, and scores in this file are synthetic demonstration data.",
+  "conditions": [
+    {
+      "id": "docs",
+      "label": "Ordinary docs",
+      "artifact": "Synthetic prose documentation, example A"
+    },
+    {
+      "id": "interactive",
+      "label": "Interactive trace",
+      "artifact": "Synthetic offline source-linked explanation, example B"
+    }
+  ],
+  "participants": [
+    {
+      "id": "p01",
+      "condition_id": "docs"
+    },
+    {
+      "id": "p02",
+      "condition_id": "docs"
+    },
+    {
+      "id": "p03",
+      "condition_id": "interactive"
+    },
+    {
+      "id": "p04",
+      "condition_id": "interactive"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "trace-request",
+      "prompt": "Trace a preview request from its entry point to the renderer. Name the intermediate checks and cite the supplied evidence.",
+      "rubric": [
+        {
+          "id": "sequence",
+          "description": "Names the request stages in the correct order.",
+          "max_points": 2
+        },
+        {
+          "id": "evidence",
+          "description": "Uses relevant source references to support the trace.",
+          "max_points": 2
+        }
+      ]
+    },
+    {
+      "id": "authorization-boundary",
+      "prompt": "Identify where access is denied and what happens when membership is inactive.",
+      "rubric": [
+        {
+          "id": "boundary",
+          "description": "Locates the authorization decision boundary.",
+          "max_points": 3
+        },
+        {
+          "id": "failure",
+          "description": "Explains the inactive-membership outcome.",
+          "max_points": 3
+        }
+      ]
+    },
+    {
+      "id": "change-location",
+      "prompt": "Choose where a small preview timeout behavior change belongs and name one safe verification step.",
+      "rubric": [
+        {
+          "id": "location",
+          "description": "Chooses the responsible module or boundary.",
+          "max_points": 2
+        },
+        {
+          "id": "verification",
+          "description": "Names a relevant test or verification step.",
+          "max_points": 3
+        }
+      ]
+    }
+  ]
+}

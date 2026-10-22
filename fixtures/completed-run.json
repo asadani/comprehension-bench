@@ -1,0 +1,177 @@
+{
+  "attempts": [
+    {
+      "answer": "I looked at the handler before the assigned explanation.",
+      "condition_id": "interactive",
+      "id": "attempt-p01-trace-practice",
+      "kind": "practice",
+      "participant_id": "p01",
+      "scores": [],
+      "started_at": "2026-10-21T08:00:00Z",
+      "submitted_at": "2026-10-21T08:15:00Z",
+      "task_id": "trace-request"
+    },
+    {
+      "answer": "The handler checks the request, then authorization, then the renderer.",
+      "condition_id": "docs",
+      "id": "attempt-p01-trace-first",
+      "kind": "first",
+      "participant_id": "p01",
+      "scores": [
+        {
+          "items": {
+            "evidence": 0,
+            "sequence": 2
+          },
+          "note": "Correct stage order; no source references were included.",
+          "reviewer": "r01",
+          "scored_at": "2026-10-21T09:20:00Z"
+        },
+        {
+          "items": {
+            "evidence": 1,
+            "sequence": 2
+          },
+          "note": "Revision: one relevant source reference was present.",
+          "reviewer": "r02",
+          "scored_at": "2026-10-21T09:30:00Z"
+        }
+      ],
+      "started_at": "2026-10-21T09:00:00Z",
+      "submitted_at": "2026-10-21T09:08:00Z",
+      "task_id": "trace-request"
+    },
+    {
+      "answer": "=SUM(A1:A2)\nThe authorization module blocks inactive membership.",
+      "condition_id": "docs",
+      "id": "attempt-p01-auth-first",
+      "kind": "first",
+      "participant_id": "p01",
+      "scores": [],
+      "started_at": "2026-10-21T09:10:00Z",
+      "submitted_at": "2026-10-21T09:18:00Z",
+      "task_id": "authorization-boundary"
+    },
+    {
+      "answer": "I cannot identify the path from these notes.",
+      "condition_id": "docs",
+      "id": "attempt-p02-trace-first",
+      "kind": "first",
+      "participant_id": "p02",
+      "scores": [
+        {
+          "items": {
+            "evidence": 0,
+            "sequence": 0
+          },
+          "note": "No criterion was demonstrated in this answer.",
+          "reviewer": "r02",
+          "scored_at": "2026-10-21T10:10:00Z"
+        }
+      ],
+      "started_at": "2026-10-21T10:00:00Z",
+      "submitted_at": "2026-10-21T10:06:00Z",
+      "task_id": "trace-request"
+    },
+    {
+      "answer": null,
+      "condition_id": "docs",
+      "id": "attempt-p02-change-first",
+      "kind": "first",
+      "participant_id": "p02",
+      "scores": [],
+      "started_at": "2026-10-21T10:15:00Z",
+      "submitted_at": null,
+      "task_id": "change-location"
+    },
+    {
+      "answer": "The request enters the handler, crosses authorization, then calls the renderer.",
+      "condition_id": "interactive",
+      "id": "attempt-p03-trace-first",
+      "kind": "first",
+      "participant_id": "p03",
+      "scores": [
+        {
+          "items": {
+            "evidence": 2,
+            "sequence": 2
+          },
+          "note": "Both criteria are supported by the submitted trace.",
+          "reviewer": "r01",
+          "scored_at": "2026-10-21T11:12:00Z"
+        }
+      ],
+      "started_at": "2026-10-21T11:00:00Z",
+      "submitted_at": "2026-10-21T11:05:00Z",
+      "task_id": "trace-request"
+    },
+    {
+      "answer": "Inactive membership is rejected in authorization before rendering.",
+      "condition_id": "interactive",
+      "id": "attempt-p03-auth-first",
+      "kind": "first",
+      "participant_id": "p03",
+      "scores": [
+        {
+          "items": {
+            "boundary": 2,
+            "failure": 1
+          },
+          "note": "Boundary is located; outcome detail is partial.",
+          "reviewer": "r01",
+          "scored_at": "2026-10-21T11:22:00Z"
+        }
+      ],
+      "started_at": "2026-10-21T11:10:00Z",
+      "submitted_at": "2026-10-21T11:16:00Z",
+      "task_id": "authorization-boundary"
+    },
+    {
+      "answer": "",
+      "condition_id": "interactive",
+      "id": "attempt-p03-change-first",
+      "kind": "first",
+      "participant_id": "p03",
+      "scores": [],
+      "started_at": "2026-10-21T11:20:00Z",
+      "submitted_at": "2026-10-21T11:24:00Z",
+      "task_id": "change-location"
+    },
+    {
+      "answer": "The preview flow starts in the request handler.",
+      "condition_id": "interactive",
+      "id": "attempt-p04-trace-first",
+      "kind": "first",
+      "participant_id": "p04",
+      "scores": [],
+      "started_at": "2026-10-21T13:00:00Z",
+      "submitted_at": "2026-10-21T13:04:00Z",
+      "task_id": "trace-request"
+    },
+    {
+      "answer": "This practice attempt used the prose condition.",
+      "condition_id": "docs",
+      "id": "attempt-p04-auth-practice",
+      "kind": "practice",
+      "participant_id": "p04",
+      "scores": [],
+      "started_at": "2026-10-21T12:30:00Z",
+      "submitted_at": "2026-10-21T12:40:00Z",
+      "task_id": "authorization-boundary"
+    },
+    {
+      "answer": "A later repeat after reading the alternate artifact.",
+      "condition_id": "docs",
+      "id": "attempt-p03-trace-repeat",
+      "kind": "repeat",
+      "participant_id": "p03",
+      "scores": [],
+      "started_at": "2026-10-21T12:00:00Z",
+      "submitted_at": "2026-10-21T12:10:00Z",
+      "task_id": "trace-request"
+    }
+  ],
+  "schema_version": 1,
+  "study_id": "request-explanation-pilot",
+  "study_sha256": "97c7e8658f9d1aefee0f3fa7f9a556b788fe95c85ee1f2a560ba3c0eec7c8dd7"
+}
