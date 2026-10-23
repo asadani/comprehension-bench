@@ -57,3 +57,7 @@ Scoring is manual; the tool does not auto-grade, randomize, collect identity or 
 Every attempt must explicitly contain `answer` and `submitted_at`, using null before submission. Summaries and exports refuse to overwrite the study or ledger; observation mutations also protect answer and score input files.
 
 See [verification coverage](docs/VERIFICATION.md) and [the design plan](docs/PLAN.md) for tested behavior and remaining limits.
+
+## License
+
+Licensed under the [MIT License](LICENSE). Copyright (c) 2026 Anuj Sadani.
