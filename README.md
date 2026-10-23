@@ -1,4 +1,6 @@
-![Comprehension Bench](assets/logo.svg)
+<p align="center">
+  <img src="assets/logo.svg" alt="Comprehension Bench — Measure understanding, openly" width="400" height="160">
+</p>
 
 Comprehension Bench keeps small explanation studies auditable. It stores exact answers, manually reviewed rubric scores, first/practice/repeat attempts, and the full expected participant-by-task grid. Missing work stays missing; an explicit zero score stays a scored zero.
 
